@@ -14,3 +14,21 @@ Para mandar llamar la clase desde Arduino:
     {
       Serial.println(elementos[j]);    
     }    
+
+
+Nuevo Split
+
+    
+    #include<NuevoSplit.h>
+    
+    String aux="A,B,C,D,E,F,G,H,I,J";
+    char buf[aux.length()];
+  	aux.toCharArray(buf,aux.length()+1);
+	buf[aux.length()]='\0';
+  	NuevoSplit s(buf,aux.length(),',');
+	char **arreglo=(char**) calloc(s.getNumeroElementos(), sizeof(char*));
+  	s.split(buf,arreglo);
+  	for(unsigned i=0;i<s.getNumeroElementos();i++)
+	{
+		Serial.println(arreglo[i]);
+	}
