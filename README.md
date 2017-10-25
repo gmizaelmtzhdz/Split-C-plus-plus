@@ -1,4 +1,4 @@
-# Split/Explode C++ Arduino
+# Split/Explode C++
 Clase para simular la función split en Javascript o explode de Php
 Primero se tiene que importar como libreria he invocarla: 
 
@@ -32,3 +32,4 @@ Nuevo Split
 	{
 		Serial.println(arreglo[i]);
 	}
+Nota: Se puede utilizar en Arduino, importando la librería en el sketch
