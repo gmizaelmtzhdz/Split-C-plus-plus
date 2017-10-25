@@ -1,4 +1,4 @@
-# Split-C-Arduino
+# Split/Explode C++ Arduino
 Clase para simular la función split en Javascript o explode de Php
 Primero se tiene que importar como libreria he invocarla: 
 
