@@ -1,6 +1,6 @@
 # Split-C-Arduino
 Clase para simular la función split en Javascript o explode de Php
-Primero se tiene que importar como libreria eh invocarla: 
+Primero se tiene que importar como libreria he invocarla: 
 
     #include<Split.h>
     
